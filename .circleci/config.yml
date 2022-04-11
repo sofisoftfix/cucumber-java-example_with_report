@@ -30,6 +30,6 @@ jobs:
       - image: circleci/openjdk:11.0-stretch-node-browsers-legacy
     steps:
       - checkout
-      - run : mvn test -Dcucumber.options="features/person-repository.feature"
+      - run : mvn test
       - store_artifacts:
           path:  target
