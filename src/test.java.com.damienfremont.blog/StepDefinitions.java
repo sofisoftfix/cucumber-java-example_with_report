@@ -30,8 +30,8 @@ public class StepDefinitions implements En {
 
         Then("I should have a second Person named '(.*)' in the repository",
                 (String name) -> assertNotNull(SYSTEM.read(name)));
-
-        Then("I should have a third Person named '(.*)' in the repository",
+        
+        Then("I should have a third Person named '(.*)' in the repository ",
                 (String name) -> assertNotNull(SYSTEM.read(name)));
     }
 }
