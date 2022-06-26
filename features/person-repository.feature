@@ -21,3 +21,4 @@ Feature: Person Repository
       | Pierre |
       | Paul   |
       | Jack   |
+      | Jhon   |
