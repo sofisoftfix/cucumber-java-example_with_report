@@ -2,7 +2,7 @@ import java.io.Serializable;
 
 public class PersonModel implements Serializable {
 
-    static final long serialVersionUID = 6879685199191377814L;
+    static final long serialVersionUID = 68796851991913778164L;
 
     String name;
 
